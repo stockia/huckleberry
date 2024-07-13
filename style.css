@@ -10,3 +10,16 @@ body {
 }
 
 /* Add styles here! */
+.max-width-wrapper {
+  width: 100%;
+  margin: auto;
+}
+
+.into-chunk {
+  width: 50%;
+  margin: auto;
+}
+
+p strong {
+  color: rgb(6, 164, 46);
+}
