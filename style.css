@@ -7,19 +7,48 @@ html,
 body {
   margin: 0;
   padding: 0;
+  height: 100%;
 }
 
 /* Add styles here! */
+header,
+main {
+  height: 50%;
+}
+
+main {
+  background-color: hsl(0deg, 0%, 40%);
+  box-shadow: 0px -5px 0px 0px hsl(0deg, 0%, 60%);
+}
+
 .max-width-wrapper {
   width: 100%;
   margin: auto;
 }
 
-.into-chunk {
-  width: 50%;
+.intro-chunk {
+  width: 45%;
+  min-height: 100%;
   margin: auto;
 }
 
+.card {
+  width: 45%;
+  min-height: 100%;
+  padding: 20px 20px;
+  margin: auto;
+  background-color: hsl(0deg, 0%, 100%);
+  box-shadow: 0px 5px 0px 0px hsl(0deg, 0%, 60%);
+}
+
+.indented-heading {
+  width: fit-content;
+  background-color: hsl(45deg, 100%, 50%);
+  margin-left: -30px;
+  padding: 10px 20px;
+  box-shadow: 0px 5px 0px 0px hsl(45deg, 100%, 40%);
+}
+
 p strong {
-  color: rgb(6, 164, 46);
+  color: hsl(160deg, 100%, 30%)
 }
